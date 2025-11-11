@@ -1,0 +1,44 @@
+<!--
+	"Zoomable Circle Packing & Bar Graph Visualization of Skyrim Data"
+
+    Date: 2024-08-02
+	
+	JSON dataset from: https://github.com/muhajipra/scrapeskyrimwiki
+	Original data from: https://en.uesp.net
+    Licensed under Creative Commons BY-SA 2.5: https://creativecommons.org/licenses/by-sa/2.5/ 
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8"/>
+		<title> Skyrim Visualization </title>
+		<link rel="icon" type="image/png" href="resources/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="Skyrim.css"/>
+	</head>
+	<body>
+		<div id="main">
+			<div id="barDiv">
+				<div id="title"></div>
+				<div id="barTitle"></div>
+				<div id="barGraph"></div>
+			</div>
+			<div id="circlePack"> </div>
+			<div id="buttons">
+				<div id="groupingButtons">
+					<button id="btn_race">Race</button>     
+					<button id="btn_class">Class</button>     
+					<button id="btn_skill">Skill</button>     
+					<button id="btn_aggression">Aggression</button>     
+					<button id="btn_morality">Morality</button>
+				  </div>
+				  <div id="statsButtons">
+					<button id="btn_health">Health</button>
+					<button id="btn_magicka">Magicka</button>
+					<button id="btn_stamina">Stamina</button>
+				  </div>
+			</div>
+		</div>
+		<script type="module" src="Skyrim.js"></script>
+	</body>
+</html>

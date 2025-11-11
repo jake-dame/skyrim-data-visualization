@@ -1,0 +1,110 @@
+#main
+{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-image: url('resources/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#title
+{
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+#barTitle
+{
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+}
+
+#barDiv
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    background-color: #f0f0f0;
+    border-right: 1px solid #ccc;
+    opacity: 0.7;
+}
+    #dropdowns
+    {
+        padding: 10px;
+        background-color: #e0e0e0;
+        border-bottom: 1px solid #ccc;
+    }
+    #barGraph
+    {
+        flex: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+#circlePack
+{
+    flex: 3;
+    height: auto;
+    width: 400px;
+    padding: 0 20px;
+}
+
+#groupingButtons, #statsButtons
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    padding: 10px;
+}
+
+html, body
+{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+button {
+    width: 100%;
+    height: 60px;
+    margin: 5px 0;
+    font-size: 16px;
+    border: 1px solid #969696;
+    background-color: #d1d1d1;
+    opacity: .9;
+    color: black; /*text*/
+    cursor: pointer;
+    text-align: center;
+}
+
+.highlighted
+{
+    stroke: #000;
+    stroke-width: 2px;
+}
+
+.clicked {
+    background-color: #0476f1;
+    color: white; /*text*/
+    border: 2px solid #004b9c;
+}
