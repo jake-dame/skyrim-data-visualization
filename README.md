@@ -1,6 +1,6 @@
 # Skyrim Character Data - Visualization with D3.js
 
-This is a zoomable circle-packing map I made of Skyrim characters by city, and some of their attributes.
+This ([link]((https://jake-dame.github.io/skyrim-data-visualization/))) is a zoomable circle-packing map of Skyrim characters by city, and some of their attributes.
 
 Even seasoned players can learn some interesting things about some of the NPC base stats! And if you are familiar with the Cloud District, then... on second thought, never mind.
 
@@ -17,10 +17,6 @@ and
 - Race
 - Skill
 - Morality
-
-## Link
-
-Live site: [link](https://jake-dame.github.io/skyrim-data-visualization/) (GitHub Pages)
 
 ## Credits
 
